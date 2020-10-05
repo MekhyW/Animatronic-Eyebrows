@@ -1,6 +1,6 @@
 #include <Servo.h>
-#define LeftEyebrowPin 0
-#define RightEyebrowPin 0
+#define LeftEyebrowPin 10
+#define RightEyebrowPin 11
 Servo LeftEyebrow;
 Servo RightEyebrow;
 int ExpressionState = 0;
@@ -10,8 +10,6 @@ void setup() {
   Serial.begin(9600);
   LeftEyebrow.attach(LeftEyebrowPin);
   RightEyebrow.attach(RightEyebrowPin);
-  LeftEyebrow.write(90);
-  RightEyebrow.write(90);
 }
 
 void loop() {
