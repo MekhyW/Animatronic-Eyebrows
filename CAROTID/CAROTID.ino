@@ -30,64 +30,59 @@ void loop() {
   }
   switch(ExpressionState){
     case 0:
-      LeftEyebrow.write(90);
+      LeftEyebrow.write(75);
       RightEyebrow.write(90);
       break;
     case 1:
-      LeftEyebrow.write(90);
-      RightEyebrow.write(90);
+      LeftEyebrow.write(85);
+      RightEyebrow.write(80);
       break;
     case 2:
-      LeftEyebrow.write(90);
-      RightEyebrow.write(90);
+      LeftEyebrow.write(105);
+      RightEyebrow.write(135);
       break;
     case 3:
-      LeftEyebrow.write(90);
-      RightEyebrow.write(90);
+      LeftEyebrow.write(80);
+      RightEyebrow.write(85);
       break;
     case 4:
-      LeftEyebrow.write(90);
-      RightEyebrow.write(90);
+      LeftEyebrow.write(110);
+      RightEyebrow.write(55);
       break;
     case 5:
-      LeftEyebrow.write(90);
-      RightEyebrow.write(90);
+      //maintain
       break;
     case 6:
-      LeftEyebrow.write(90);
-      RightEyebrow.write(90);
+      LeftEyebrow.write(15);
+      RightEyebrow.write(160);
       break;
     case 7:
-      LeftEyebrow.write(90);
-      RightEyebrow.write(90);
+      LeftEyebrow.write(55);
+      RightEyebrow.write(110);
       break;
     case 8:
-      LeftEyebrow.write(90);
-      RightEyebrow.write(90);
+      LeftEyebrow.write(30);
+      RightEyebrow.write(55);
       break;
     case 9:
-      LeftEyebrow.write(90);
-      RightEyebrow.write(90);
+      LeftEyebrow.write(55);
+      RightEyebrow.write(110);
       break;
     case 10:
-      LeftEyebrow.write(90);
-      RightEyebrow.write(90);
+      LeftEyebrow.write(15);
+      RightEyebrow.write(160);
       break;
     case 11:
-      LeftEyebrow.write(90);
-      RightEyebrow.write(90);
+      LeftEyebrow.write(65);
+      RightEyebrow.write(100);
       break;
     case 12:
-      LeftEyebrow.write(90);
-      RightEyebrow.write(90);
+      LeftEyebrow.write(15);
+      RightEyebrow.write(160);
       break;
     case 13:
-      LeftEyebrow.write(90);
-      RightEyebrow.write(90);
-      break;
-    case 14:
-      LeftEyebrow.write(90);
-      RightEyebrow.write(90);
+      LeftEyebrow.write(105);
+      RightEyebrow.write(60);
       break;
   }
 }
