@@ -22,10 +22,10 @@ void loop() {
     while(Serial.available() > 0){
       Serial.read();
     }
-    if(inputarray[1] != 0){
-      ExpressionState = ((inputarray[0]-48)*10) + (inputarray[1]-48);
+    if(inputarray[1] == 0){
+      ExpressionState = inputarray[0]-48;
     } else {
-      ExpressionState = (inputarray[0]-48);
+      ExpressionState = (10*(inputarray[0]-48)) + (inputarray[1]-48);
     }
   }
   switch(ExpressionState){
@@ -73,4 +73,5 @@ void loop() {
       RightEyebrow.write(60);
       break;
   }
+  Serial.println(ExpressionState);
 }
